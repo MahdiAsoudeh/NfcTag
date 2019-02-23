@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include2" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="text"
+        android:maxLength="8"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:layout_alignStart="@+id/edtName"
+        android:layout_alignLeft="@+id/edtName"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="number"
+        android:maxLength="8"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="save"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Write the data" />
+</RelativeLayout>

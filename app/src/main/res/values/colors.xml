@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF5722</color>
+
+
+    <color name="colorPrimaryAlpha">#80607d8b</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPressedToolbar">#8C2C0C</color>
+    <color name="colorTrasparent">#00000000</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorOrange">#ffa200</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGray1">#808080</color>
+
+</resources>
